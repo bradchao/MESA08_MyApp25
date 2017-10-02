@@ -1,0 +1,10 @@
+<script>
+    function test1(){
+        var name = document.getElementById('name')
+        window.location.assign("brad://getname?name=" + name.value)
+    }
+</script>
+Hello, Brad
+<hr>
+<input type="text" id="name" />
+<input type="button" onclick="test1()" value="Click me" />
